@@ -31,4 +31,4 @@ Demonstrar a importância da união entre:
 
 ## Autor
 
-Seu Nome
+Thais
