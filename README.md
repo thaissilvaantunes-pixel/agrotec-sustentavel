@@ -1,34 +1,47 @@
-# agrotec-sustentavel
-Projeto Agrinho 2026 - Agro forte, futuro sustentável.
-# 🌱 Agro Forte - Futuro Sustentável
+# 💧 Simulador de Irrigação Inteligente
 
-Projeto de site institucional com foco no tema:
+Este é um projeto escolar interativo desenvolvido para o projeto Agrinho. O objetivo principal é demonstrar, através da tecnologia, como os produtores rurais podem monitorar o solo e o clima para otimizar o uso da água, promovendo a preservação ambiental.
 
-**"Agro Forte, Futuro Sustentável: Produção e Meio Ambiente"**
+Todo o processo de desenvolvimento e hospedagem foi feito diretamente no **GitHub**.
 
-## Objetivo
+---
 
-Demonstrar a importância da união entre:
+## 📝 Qual é o objetivo do Simulador?
 
-- Produção agrícola
-- Sustentabilidade
-- Preservação ambiental
-- Tecnologia no campo
+Na agricultura sustentável, a água é o recurso mais precioso. O desperdício de água através de irrigação excessiva não só prejudica o meio ambiente, como também pode danificar as raízes das plantas e gastar energia elétrica sem necessidade.
 
-## Tecnologias
+Este mini aplicativo simula um sistema de sensores (IoT). Ele cruza os dados de temperatura ambiente com a umidade da terra para avisar o agricultor o momento exato de ligar ou desligar as bombas de água.
 
-- HTML5
-- CSS3
-- JavaScript
+## 🚀 Funcionalidades do Mini Aplicativo
 
-## Funcionalidades
+O simulador possui um painel de controle interativo com os seguintes elementos:
 
-- Layout responsivo
-- Seção institucional
-- Cards informativos
-- Contadores animados
-- Navegação suave
+1. **Controle de Temperatura (°C):** Um *slider* onde o usuário define o calor ambiente (de 10°C a 45°C).
+2. **Controle de Umidade (%):** Um *slider* onde o usuário define o quão molhada está a terra.
+3. **Painel de Diagnóstico:** O sistema calcula instantaneamente e emite avisos coloridos:
+   * **Vermelho (Crítico):** Falta de água.
+   * **Amarelo (Alerta):** Água ok, mas calor extremo gera evaporação rápida.
+   * **Verde (Ideal):** Condições perfeitas, água sendo economizada.
+   * **Azul (Encharcado):** Excesso de água, alerta de desperdício.
 
-## Autor
+## 🛠️ Tecnologias Utilizadas
 
-Thais Maria da silva antunes.
+Para garantir a viabilidade e interatividade em tempo real, utilizamos tecnologias web fundamentais:
+
+* **HTML:** Estruturação dos elementos de *range* (deslizantes) na interface.
+* **CSS:** Cores semânticas que mudam dinamicamente para indicar urgência (UX/UI).
+* **JavaScript:** Lógica condicional (`if/else`) e eventos de escuta (`addEventListener`) para reatividade instantânea.
+* **GitHub e GitHub Pages:** Versionamento e hospedagem gratuita.
+
+## 💻 Como Acessar o Projeto
+
+Como o site está hospedado no GitHub Pages, você pode acessá-lo diretamente de qualquer navegador de internet, seja no celular ou no computador, através do link gerado pelo GitHub:
+
+**[Insira aqui o link do seu GitHub Pages gerado]**
+
+---
+
+**Desenvolvido por:** Thais Maria s. Antunes
+**Contexto:** Projeto Agrinho 2026
+
+
